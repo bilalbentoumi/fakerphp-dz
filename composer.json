@@ -1,0 +1,22 @@
+{
+    "name": "bilalbentoumi/fakerphp-dz",
+    "description": "FakerPHP algeria providers",
+    "type": "library",
+    "require": {
+      "php": ">=7.1.0",
+      "fakerphp/faker": "^1.19"
+    },
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Bilal bentoumi",
+        "email": "bilalbentoumi@gmail.com"
+      }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Faker\\AlgeriaProvider\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+  }
