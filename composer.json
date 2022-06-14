@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Faker\\AlgeriaProvider\\": "src/"
+            "BilalBentoumi\\Faker\\Provider\\": "src/"
         }
     },
     "minimum-stability": "dev"

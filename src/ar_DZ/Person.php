@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\AlgeriaProvider\ar_DZ;
+namespace BilalBentoumi\Faker\Provider\ar_DZ;
 
 class Person extends \Faker\Provider\Person {
     
