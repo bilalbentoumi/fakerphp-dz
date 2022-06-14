@@ -12,7 +12,7 @@ How to use each provider with examples
 ### Person (AR)
 ```php
 $faker = Faker\Factory::create();
-$faker->addProvider(new Faker\AlgeriaProvider\ar_DZ\Person($faker));
+$faker->addProvider(new BilalBentoumi\Faker\Provider\ar_DZ\Person($faker));
 
 echo $faker->name();
 // 'فريد شيباني'
@@ -30,7 +30,7 @@ echo $faker->lastName();
 ### Person (FR)
 ```php
 $faker = Faker\Factory::create();
-$faker->addProvider(new Faker\AlgeriaProvider\fr_DZ\Person($faker));
+$faker->addProvider(new BilalBentoumi\Faker\Provider\fr_DZ\Person($faker));
 
 echo $faker->name();
 // 'Yousra Kadi'
